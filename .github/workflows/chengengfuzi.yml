@@ -3,8 +3,7 @@ name: chengengfuzi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 2/6 * * *'
-
+    - cron: '49 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,24 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengengfuzi
         env:
-          k6: ${{ secrets.k6 }}
+          ldmdh9: ${{ secrets.ldmdh9 }}
         run: |
-          echo $k6 | jq -r .vmvp04 | /bin/bash
-          echo $yfa24266 | jq -r .d303 | /bin/bash
-          echo $sljc82449 | jq -r .k1 | /bin/bash
-          echo $fi502 | jq -r .ea6 | /bin/bash
-          echo $dg29569 | jq -r .sljz34214 | /bin/bash
-          echo $dxu147 | jq -r .od17 | /bin/bash
-          echo $v39657 | jq -r .izxv41 | /bin/bash
-          echo $b79199 | jq -r .ejy37159 | /bin/bash
-          echo $e001 | jq -r .l0927 | /bin/bash
-          echo $chgq99223 | jq -r .sa36452 | /bin/bash
-          echo $phgbi46 | jq -r .oyepi9 | /bin/bash
-          echo $ef238 | jq -r .nfyxa53918 | /bin/bash
-          echo $ugvwo0249 | jq -r .eukew58479 | /bin/bash
-          echo $ljt61 | jq -r .h9 | /bin/bash
-          echo $j74 | jq -r .axsr2 | /bin/bash
-          echo $ebnpx06831 | jq -r .y7 | /bin/bash
-          echo $uaci928 | jq -r .fc96 | /bin/bash
-          echo $cruz1811 | jq -r .kvp36080 | /bin/bash
+          echo $ldmdh9 | jq -r .aqglt7 | /bin/bash
+          echo $mq04922 | jq -r .syyr99 | /bin/bash
+          echo $gj251 | jq -r .ee4 | /bin/bash
+          echo $vdcw2718 | jq -r .duw3259 | /bin/bash
+          echo $o23 | jq -r .wwo64 | /bin/bash
 
