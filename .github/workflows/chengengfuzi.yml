@@ -3,7 +3,7 @@ name: chengengfuzi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '47 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengengfuzi
         env:
-          ldmdh9: ${{ secrets.ldmdh9 }}
+          cmxi08121: ${{ secrets.cmxi08121 }}
         run: |
-          echo $ldmdh9 | jq -r .aqglt7 | /bin/bash
-          echo $mq04922 | jq -r .syyr99 | /bin/bash
-          echo $gj251 | jq -r .ee4 | /bin/bash
-          echo $vdcw2718 | jq -r .duw3259 | /bin/bash
-          echo $o23 | jq -r .wwo64 | /bin/bash
+          echo $cmxi08121 | jq -r .m00 | /bin/bash
+          echo $m9869 | jq -r .xg9 | /bin/bash
+          echo $kcdxz32 | jq -r .dcxkd0 | /bin/bash
+          echo $sr6 | jq -r .eul2885 | /bin/bash
+          echo $eoz7906 | jq -r .hwvkl073 | /bin/bash
 
